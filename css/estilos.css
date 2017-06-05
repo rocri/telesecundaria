@@ -1,0 +1,19 @@
+html {
+  font-size: 15px; }
+
+/*Estilos bloque bienvenidos*/
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.encabezado{
+  background: rgba(56, 142, 60, 1); 
+}
+
+
+
+#menuprincipal {
+  clear: both; }
+
