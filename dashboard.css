@@ -68,3 +68,25 @@ h1 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.bg-inverse {
+    background-color: #388E3C!important;
+}
+
+.bg-faded {
+    background-color: #C8E6C9;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #4CAF50;
+}
+
+a {
+    color: #212121;
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+    background: #4CAF50;
+    text-decoration: underline;
+}
+
