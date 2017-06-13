@@ -83,4 +83,10 @@ html {
 .quienes-somos{
   background: rgba(56, 142, 60, 1); 
   color: #fff;
+} 
+
+/**Estilos para el menú de inicio**/
+.menuInicio{
+  background: #8BC34A;
+
 }

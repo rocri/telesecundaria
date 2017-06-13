@@ -44,73 +44,182 @@
     </nav>
 
     <div class="container-fluid">
+
       <div class="row">
+
+
+
         <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
           <ul class="nav nav-pills flex-column">
+
+            <li class="full-reset">
+ <figure>
+                    <img src="images/logo.png" alt="Biblioteca" class="img-responsive center-box" style="width:55%;">
+                </figure>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Administración</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Registro de usuarios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Libros y Catálogos</a>
-            </li>
+          
             <li class="nav-item"> 
-              <a class="nav-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Libros y Catálogos</a>
-              <div class="collapse" id="collapseExample">
-              <ul class="nav nav-pills flex-column">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
-                </li>
-                 <li class="nav-item">
-              <a class="nav-link" href="#">Administración</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Registro de usuarios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Libros y Catálogos</a>
-            </li>
-              </ul>
+              <a class="nav-link" data-toggle="collapse" href="#collapseAdministracion" aria-expanded="false" aria-controls="collapseAdministracion">Administración</a>
+              <div class="collapse" id="collapseAdministracion">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Datos  Institucionales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nuevo Proveedor</a>  
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nueva Categoría</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nueva Sección</a>  
+                  </li>
+                </ul>
               </div>
             </li> 
-            
-          </ul>
 
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Préstamos y reservaciones</a>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item"> 
+              <a class="nav-link" data-toggle="collapse" href="#collapseRegistroUsuarios" aria-expanded="false" aria-controls="collapseRegistroUsuarios">Registro de usuarios</a>
+              <div class="collapse" id="collapseRegistroUsuarios">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Datos  Institucionales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nuevo Proveedor</a>  
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nueva Categoría</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nueva Sección</a>  
+                  </li>
+                </ul>
+              </div>
+            </li> 
+
+            <li class="nav-item"> 
+              <a class="nav-link" data-toggle="collapse" href="#collapseLibrosCatalogos" aria-expanded="false" aria-controls="collapseLibrosCatalogos">Libros y Catálogos</a>
+              <div class="collapse" id="collapseLibrosCatalogos">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nuevo Libro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catálogo</a>  
+                  </li>
+                </ul>
+              </div>
+            </li> 
+
+
+            <li class="nav-item"> 
+              <a class="nav-link" data-toggle="collapse" href="#collapsePrestamosReservaciones" aria-expanded="false" aria-controls="collapsePrestamosReservaciones">Préstamos y reservaciones</a>
+              <div class="collapse" id="collapsePrestamosReservaciones">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Todos los préstamos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Devoluciones Pendientes</a>  
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Reservaciones</a>  
+                  </li>
+                </ul>
+              </div>
+            </li>   
+
+             <li class="nav-item">
               <a class="nav-link" href="#">Reportes y estadísticas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">configuraciones avanzadas</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Another nav item</a>
-            </li>
-          </ul>
-
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nav item again</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">One more nav</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Another nav item</a>
-            </li>
           </ul>
         </nav>
 
-        <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
-          <h1>Sistema Bibliotecario</h1>
+
+          <section class="py-2 col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3 menu-inicio">
+            <div class="container">
+              <h2 class="h1 mb-3">Sistema Bibliotecario</h2>
+
+              <div class="row">
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/administradores.jpg" width="250" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/estudiantes.jpg" width="250" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/docentes.jpg" width="250" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/personal-administrativo.jpg" width="250" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                 <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/proveedores.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                 <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/libros.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                  <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/categorias.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/sesion.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                 <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/reservaciones.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="#">
+                  <img src="images/devoluciones.png" width="150" class="img-fluid m-x-auto m-b-2">
+                  </a>
+                </div>
+
+              </div>
+
+            </div>  
+
+
+          </section>
+
+
+
+
 
           <section class="row text-center placeholders">
             <div class="col-6 col-sm-3 placeholder">
@@ -134,6 +243,21 @@
               <span class="text-muted">Something else</span>
             </div>
           </section>
+
+          <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
 
           <h2>Section title</h2>
           <div class="table-responsive">
@@ -263,7 +387,6 @@
               </tbody>
             </table>
           </div>
-        </main>
       </div>
     </div>
 
